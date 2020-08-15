@@ -1,0 +1,57 @@
+.wrapper{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.checkbox{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.trace{
+    margin-left: 20px;
+    background-color: #222222;
+    border-radius: 4px;
+    height: 3px;
+    position: absolute;
+    width: 20px;
+    transition: .5s ease-in-out;
+}
+
+.trace:nth-child(1){
+    top: 20px;
+}
+
+
+.trace:nth-child(2){
+    top: 27px;
+}
+
+
+.trace:nth-child(3){
+    top: 34px;
+}
+
+#toggle{
+    display: none;
+}
+
+#toggle:checked ~ .checkbox .trace:nth-child(1){
+    transform: rotate(45deg);
+    top: 30px;
+}
+
+
+#toggle:checked ~ .checkbox .trace:nth-child(2){
+    transform: translate(-100px);
+    width: 50px;
+    /* visibility: hidden;
+    opacity: 0; */
+}
+
+#toggle:checked ~ .checkbox .trace:nth-child(3){
+    transform: rotate(-45deg);
+    top: 30px;
+}
