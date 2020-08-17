@@ -1,10 +1,10 @@
 import React from 'react';
-import Burger from '../../components/Burger/Burger';
+import TopBar from '../../components/TopBar/TopBar';
 
-function App() {
+function Home() {
   return (
-    <Burger />
+    <TopBar />
   );
 }
 
-export default App;
+export default Home;
