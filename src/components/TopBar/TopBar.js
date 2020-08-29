@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Burger from '../Burger/Burger';
+// import Burger from '../Burger/Burger';
 import Logo from '../../assets/img/logo.png';
 import './TopBar.css';
 
@@ -10,9 +10,9 @@ function TopBar() {
 
       <div className="container">
 
-        <div className="topbar__burger">
+        {/* <div className="topbar__burger">
           <Burger />
-        </div>
+        </div> */}
 
         <div className="topbar__wrapper">
           <Link to="/" className="topbar__logo">
