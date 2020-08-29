@@ -1,12 +1,17 @@
 .project:nth-child(even){
-    background-color: #000000;
+    /* background-color: #000000; */
+    background: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.795)),
+    url('../../assets/img/bg-app.jpeg');
 }
 
 .project:nth-child(odd){
-    background-color: #171717;
+    background: linear-gradient(rgba(83, 8, 3, 0.514),rgba(83, 8, 3, 0.514)),
+    url('../../assets/img/bg-app.jpeg');
+    /* background: #171717; */
 }
 
 .project{
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
