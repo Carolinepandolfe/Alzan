@@ -6,7 +6,6 @@ import Home from './pages/Home/Home';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-
   <BrowserRouter>
     <Switch>
       <Route path="/" component={Home} exact />

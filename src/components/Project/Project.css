@@ -1,25 +1,26 @@
-.project:nth-child(even){
-    /* background-color: #000000; */
-    background: linear-gradient(rgba(0, 0, 0, 0.795),rgba(0, 0, 0, 0.795)),
+.project:nth-child(even) {
+  /* background-color: #000000; */
+  background: linear-gradient(rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.795)),
     url('../../assets/img/bg-app.jpeg');
+  background-size: cover;
 }
 
-.project:nth-child(odd){
-    background: linear-gradient(rgba(83, 8, 3, 0.514),rgba(83, 8, 3, 0.514)),
+.project:nth-child(odd) {
+  background: linear-gradient(rgba(83, 8, 3, 0.514), rgba(83, 8, 3, 0.514)),
     url('../../assets/img/bg-app.jpeg');
-    /* background: #171717; */
+  background-size: cover;
 }
 
-.project{
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-    width: 100%;
+.project {
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 100%;
 }
 
-.project__name{
-    color: #F7F7F7;
-    margin: 0;
+.project__name {
+  color: #f7f7f7;
+  margin: 0;
 }
